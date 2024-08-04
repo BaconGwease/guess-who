@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import PySimpleGUI as sg
 import os
 
@@ -42,3 +43,15 @@ while True:
         # Replace the image associated with the clicked element with Solid_black.png
         window[event].update(filename=black_PNG)
 window.close()
+=======
+from PIL import Image as img
+
+# loads image
+image_path = 'portraits/img2.png'
+image = img.open(image_path)
+
+
+
+# Show the cropped image
+image.show()
+>>>>>>> Stashed changes

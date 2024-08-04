@@ -14,5 +14,6 @@ class Character:
         return (f"Name: {self.name}, Hair Color: {self.hair_color}, Eye Color: {self.eye_color}, "
                 f"Glasses: {self.glasses}, Hat: {self.hat}, Gender: {self.gender}, Facial Hair: {self.facial_hair}, "
                 f"Skin Color: {self.skin_color}, Accessories: {self.accessories}")
-        
-    
+
+Brian = Character()
+
